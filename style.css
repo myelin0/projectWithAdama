@@ -7,3 +7,44 @@ header{
     font-size: 25px;
     font-weight:bold;
 }
+
+
+
+
+
+
+
+
+    @media (min-width:600px){
+    nav{
+    position: fixed;
+    left:0;
+    top:0;
+    width:200px;
+    height:100%;
+    background-color: royalblue;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: baseline;
+   
+
+    }
+}
+ main{
+     margin-left: 210px
+ }
+
+ a{
+     text-decoration: none;
+     font-size: 20px;
+     padding-left: 30px;
+     color:white
+     ;
+ }
+
+ nav header{
+     font-size: 20px;
+     text-align: center;
+ }
